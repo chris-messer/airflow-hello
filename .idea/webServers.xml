@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="70cef44d-be28-4d36-bf21-7f2c18ef0f51" name="rpi">
+        <fileTransfer rootFolder="/home/pi" accessType="SFTP" host="4.tcp.ngrok.io" port="13777" sshConfigId="9cbd5b2e-6021-4adb-8b18-8b268ef85685" sshConfig="pi@4.tcp.ngrok.io:13777 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="4e3197e0-267e-4661-a3bc-3f6094cd6b0f" name="azure vm">
+        <fileTransfer rootFolder="/home/chrislmesser" accessType="SFTP" host="137.135.102.22" port="22" sshConfigId="e1f88945-2afe-4cdb-950b-92b6e60b07b2" sshConfig="chrislmesser@137.135.102.22:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
