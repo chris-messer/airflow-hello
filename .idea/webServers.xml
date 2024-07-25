@@ -10,7 +10,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="4e3197e0-267e-4661-a3bc-3f6094cd6b0f" name="azure vm">
-        <fileTransfer rootFolder="/home/chrislmesser" accessType="SFTP" host="137.135.102.22" port="22" sshConfigId="e1f88945-2afe-4cdb-950b-92b6e60b07b2" sshConfig="chrislmesser@137.135.102.22:22 password">
+        <fileTransfer rootFolder="/home/chrislmesser" accessType="SFTP" host="20.168.212.130" port="22" sshConfigId="e1f88945-2afe-4cdb-950b-92b6e60b07b2" sshConfig="chrislmesser@20.168.212.130:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

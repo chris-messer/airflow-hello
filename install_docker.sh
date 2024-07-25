@@ -18,6 +18,9 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker chrislmesser
-sudo astro config set airflow.expose_port true
 curl -sSL install.astronomer.io | sudo bash -s
 sudo reboot
+
+sudo git clone https://github.com/chris-messer/airflow-hello
+sudo cd airflow-hello
+sudo astro config set airflow.expose_port true
